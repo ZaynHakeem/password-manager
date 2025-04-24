@@ -33,10 +33,13 @@ git clone https://github.com/ZaynHakeem/password-manager.git
 cd password-manager
 
 Ensure images.png is in the project root. If you don’t have this file, create a placeholder PNG or update the code to remove the image dependency:
+
 Comment out these lines in password_manager.py
 
 photo = PhotoImage(file="images.png")
+
 image_label = Label(image=photo)
+
 image_label.grid(row=0, column=1, columnspan=2)
 
 
